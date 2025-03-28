@@ -29,7 +29,7 @@ footer {
   background-color: #162756;
   color: white;
   margin: 0;
-  padding: 0;
+  padding: 15px;
 }
 
 /*Work experience*/
@@ -58,6 +58,11 @@ th {
 .Work-experience td:first-child,
 .Education td:first-child {
   width: 150px;
+}
+
+.Position {
+font-weight: bold;
+
 }
 
 .Main-content {
@@ -95,11 +100,10 @@ p.personal-info-table {
   padding: 0;
 }
 
-.Blue-menu .Personal-skills {
+.Blue-menu .Personal-skills,
+.Blue-menu .Certifications-and-trainings {
   padding: 0;
   margin-top: 0;
 }
 
-.Blue-menu .Certifications-and-trainings {
-  padding: 0;
-}
+
