@@ -21,14 +21,14 @@ h4 {
   margin: 0;
 }
 
-section {
-  margin: 0 50px 50px 50px;
+header {
+  margin: 0 50px 0 50px;
   overflow: auto;
   padding: 0 15px;
 }
 
-header {
-  margin: 0;
+section {
+  margin: 0 50px 50px 50px;
   overflow: auto;
   padding: 0 15px;
 }
@@ -41,7 +41,7 @@ footer {
   padding: 15px;
 }
 
-/*Work experience*/
+/*Main content div - Work experience and Education*/
 .Main-content {
   display: flex;
   flex-direction: column;
@@ -60,6 +60,15 @@ footer {
 .Container div {
   padding-left: 10px;
   text-align: left;
+}
+
+.Main-content .Work-experience h2,
+.Main-content .Education h2 {
+  text-align: left;
+  background-color: #162756;
+  border-radius: 0 10px 10px 0;
+  color: white;
+  padding: 5px 5px 5px 5px;
 }
 
 /*My photo*/
@@ -96,6 +105,13 @@ p.Personal-info-table {
 .Blue-menu .Certifications-and-trainings {
   padding: 0;
   margin-top: 0;
-
 }
 
+.Blue-menu .Personal-skills h2,
+.Blue-menu .Certifications-and-trainings h2 {
+  text-align: left;
+  background-color: #d0e0e3;
+  border-radius: 0 10px 10px 0;
+  padding: 0 0 0 5px;
+  color: #162756;
+}
