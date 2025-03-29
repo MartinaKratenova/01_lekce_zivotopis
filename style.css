@@ -17,8 +17,12 @@ h3 {
   text-transform: uppercase;
 }
 
-section {
+h4 {
   margin: 0;
+}
+
+section {
+  margin: 0 50px 50px 50px;
   overflow: auto;
   padding: 0 15px;
 }
@@ -38,36 +42,6 @@ footer {
 }
 
 /*Work experience*/
-table {
-  border-spacing: 0;
-  margin-left: 0;
-  margin-bottom: 60px;
-  padding: 20px;
-  border-left: #162756;
-  border-style: solid;
-  border-width: 0 0 0 5px;
-}
-
-th,
-td {
-  text-align: left;
-  padding-left: 10px;
-}
-
-th {
-  text-transform: uppercase;
-  vertical-align: middle;
-}
-
-.Work-experience td:first-child,
-.Education td:first-child {
-  width: 150px;
-}
-
-.Position {
-  font-weight: bold;
-}
-
 .Main-content {
   display: flex;
   flex-direction: column;
@@ -75,15 +49,28 @@ th {
   padding: 0;
 }
 
+.Container {
+  display: grid;
+  grid-template-columns: minmax(150px, 180px) auto;
+  border-left: #162756;
+  border-style: solid;
+  border-width: 0 0 0 5px;
+}
+
+.Container div {
+  padding-left: 10px;
+  text-align: left;
+}
+
 /*My photo*/
-img.me {
+.Me {
   width: 200px;
   border-radius: 10%;
   margin: 30px 30px 30px 45px;
 }
 
 /*Personal information*/
-p.personal-info-table {
+p.Personal-info-table {
   text-align: left;
   margin: 30px 30px;
 }
@@ -98,12 +85,17 @@ p.personal-info-table {
   color: white;
   display: flex;
   flex-direction: column;
-  margin: 0 15px 0 0;
-  padding: 0 15px;
+  padding: 0 20px;
+}
+
+.Blue-menu section {
+  margin: 0 15px 0 15px;
 }
 
 .Blue-menu .Personal-skills,
 .Blue-menu .Certifications-and-trainings {
   padding: 0;
   margin-top: 0;
+
 }
+
