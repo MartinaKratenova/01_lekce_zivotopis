@@ -68,7 +68,7 @@ footer {
   background-color: #162756;
   border-radius: 0 10px 10px 0;
   color: white;
-  padding: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 10px;
 }
 
 /*My photo*/
@@ -112,6 +112,6 @@ p.Personal-info-table {
   text-align: left;
   background-color: #d0e0e3;
   border-radius: 0 10px 10px 0;
-  padding: 0 0 0 5px;
+  padding: 0 0 0 10px;
   color: #162756;
 }
